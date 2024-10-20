@@ -31,7 +31,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className=" dark:bg-slate-800 bg-slate-100 relative overflow-hidden py-32 px-4"
+      className=" dark:bg-slate-800 bg-slate-200 relative overflow-hidden py-32 px-4"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-2xl font-semibold mb-2 text-indigo-600 dark:text-indigo-400">
@@ -42,7 +42,7 @@ export default function Services() {
         </h3>
 
         <FocusCards cards={cards} />
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-slate-100  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black   [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       </div>
     </section>
   );

@@ -176,7 +176,7 @@ export default function ContactForm() {
               <LabelInputContainer>
                 <Label htmlFor="additionalInfo">Additional information</Label>
                 <textarea
-                  className="bg-gray-100 dark:bg-gray-700 p-3 rounded-md w-full mb-4 text-gray-900 dark:text-white"
+                  className="bg-gray-100 dark:bg-gray-700 p-3 rounded-md w-full mb-4 text-gray-900 dark:text-white resize-none"
                   id="additionalInfo"
                   name="additionalInfo"
                   placeholder="Tell us more about your inquiry..."

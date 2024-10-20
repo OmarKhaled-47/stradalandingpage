@@ -81,15 +81,7 @@ export default function WhoAreWe() {
                 )}
               ></div>
             </motion.div>
-            <motion.div
-              initial={{ opacity: 0.0, x: 40 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{
-                delay: 0.3,
-                duration: 0.8,
-                ease: "easeInOut",
-              }}
-            >
+            <div>
               <h3 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
                 The Road To your New Home
               </h3>
@@ -121,7 +113,7 @@ export default function WhoAreWe() {
                   </motion.div>
                 ))}
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </section>
