@@ -98,20 +98,6 @@ export default function ContactForm() {
         playsInline
         className={cn(
           "absolute inset-0 w-full h-full object-cover transition-opacity duration-500",
-          isDarkMode ? "opacity-0" : "opacity-100"
-        )}
-        aria-hidden="true"
-      >
-        <source src="/bg hero.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className={cn(
-          "absolute inset-0 w-full h-full object-cover transition-opacity duration-500",
           isDarkMode ? "opacity-100" : "opacity-0"
         )}
         aria-hidden="true"

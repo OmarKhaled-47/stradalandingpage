@@ -66,7 +66,7 @@ export default function Hero({ theme }: HeroProps) {
   return (
     <section
       id="home"
-      className=" dark:bg-slate-800 py-28 px-4 relative overflow-hidden"
+      className=" dark:bg-slate-800 bg-slate-100 py-28 px-4 relative overflow-hidden"
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-14">
         <motion.div
