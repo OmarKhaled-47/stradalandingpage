@@ -14,7 +14,7 @@ export async function POST(request: Request) {
       subject: "New Contact Form Submission",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;">
-          <h2 style="text-align: center; color: #333;">New Contact Form ${fullName}</h2>
+          <h2 style="text-align: center; color: #333;">New Contact From ${fullName}</h2>
           <p style="font-size: 16px; color: #555;">
             You have received a new contact form submission. Below are the details:
           </p>
