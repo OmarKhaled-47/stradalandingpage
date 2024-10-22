@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 interface FooterProps {
   theme: string;
@@ -35,10 +35,10 @@ export default function Footer({ theme }: FooterProps) {
           </a>
           <br />
           <a
-            href="mailto:Contact@Strada-Properties.com"
+            href="mailto:info@strada-properties.com"
             className="text-slate-600 dark:text-slate-300 hover:underline"
           >
-            Contact@strada-properties.com
+            info@strada-properties.com
           </a>
         </div>
         <div>
@@ -64,22 +64,22 @@ export default function Footer({ theme }: FooterProps) {
           </h3>
           <div className="flex space-x-3">
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=61565371004923&mibextid=LQQJ4d "
               className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400"
             >
               <Facebook />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/strada.properties?igsh=NmM0Zm91bnl1MmMy"
               className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400"
             >
               <Instagram />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/strada-properties-egypt/"
               className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400"
             >
-              <Twitter />
+              <Linkedin />
             </a>
           </div>
         </div>

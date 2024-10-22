@@ -85,7 +85,7 @@ export default function WhoAreWe() {
               <h3 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">
                 The Road To your New Home
               </h3>
-              <p className="text-gray-600 dark:text-gray-300 mb-6">
+              <p className="text-slate-700 dark:text-slate-300 mb-6">
                 At Strada Properties, we help you find the home that’s right for
                 you. Whether you’re looking for a modern family home, a luxury
                 villa, or a stylish apartment, our services are tailored to your
