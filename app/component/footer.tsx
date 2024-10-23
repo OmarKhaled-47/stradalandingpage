@@ -70,19 +70,19 @@ export default function Footer({ theme }: FooterProps) {
           <div className="flex space-x-3">
             <a
               href="https://www.facebook.com/profile.php?id=61565371004923&mibextid=LQQJ4d "
-              className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+              className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400"
             >
               <Facebook />
             </a>
             <a
               href="https://www.instagram.com/strada.properties?igsh=NmM0Zm91bnl1MmMy"
-              className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+              className="text-slate-600 dark:text-slate-300 hover:text-pink-600 dark:hover:text-pink-400"
             >
               <Instagram />
             </a>
             <a
               href="https://www.linkedin.com/company/strada-properties-egypt/"
-              className="text-slate-600 dark:text-slate-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+              className="text-slate-600 dark:text-slate-300 hover:text-sky-600 dark:hover:text-sky-400"
             >
               <Linkedin />
             </a>
