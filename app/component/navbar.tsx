@@ -93,7 +93,7 @@ export default function Navbar({ theme, toggleTheme }: NavbarProps) {
             >
               <a
                 className={clsx(
-                  "px-3 py-2 text-sm font-semibold transition-colors cursor-pointer",
+                  "px-3 py-2 text-sm font-medium  transition-colors cursor-pointer",
                   {
                     "text-slate-950 dark:text-slate-200":
                       activeSection === section.toLowerCase(),

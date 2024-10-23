@@ -20,13 +20,18 @@ export default function Footer({ theme }: FooterProps) {
               className="mr-2"
             />
           </div>
-          <p className="text-slate-600 dark:text-slate-300 mb-4">
+          <a
+            href="https://maps.app.goo.gl/VsEioxBDNYkt6pRN8"
+            target="_blank"
+            className="hover:underline"
+          >
             One Kattameya, 215,
             <br />
             Maadi Kattameya
             <br />
             Ringroad - Cairo, Egypt
-          </p>
+          </a>
+          <p className="text-slate-600 dark:text-slate-300 mb-4"></p>
           <a
             href="tel:+201203425566"
             className="text-slate-600 dark:text-slate-300 hover:underline"

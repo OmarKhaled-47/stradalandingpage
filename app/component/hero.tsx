@@ -189,7 +189,7 @@ export default function Hero({ theme }: HeroProps) {
       </div>
 
       <div className="max-w-6xl mx-auto mt-16 overflow-hidden">
-        <h3 className="text-center text-gray-600 dark:text-gray-300 mb-4">
+        <h3 className="text-center text-gray-500 dark:text-gray-300 mb-4">
           Trusted by 100+ companies across Egypt!
         </h3>
         <motion.div
